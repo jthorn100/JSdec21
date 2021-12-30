@@ -1,9 +1,14 @@
 #shot  = [player , distace from target]
 #I understand github!
-
-
-
 import random
+import cmath
+import numpy as np
+targetRadius = 100 # assume a round target
+
+z = cmath.rect(1,np.pi)
+
+print(z)
+
 
 def dist_to_target(shot):
     return(shot[1])
@@ -14,7 +19,7 @@ def still_in(shot,players_list,shots_list):
     else:
         players_list.remove(shot[0])
 
-
+"""
 A = 0
 B = 0
 C = 0
@@ -38,3 +43,4 @@ for i in range(10000000000):
         D +=1
     print(A,B,C,D)
     print(D/(A+B+C+D))
+"""
