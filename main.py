@@ -1,4 +1,8 @@
 #shot  = [player , distace from target]
+#I understand github!
+
+
+
 import random
 
 def dist_to_target(shot):
